@@ -200,12 +200,100 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
 
           INGRESA AQUI EL CÓDIGO HTML
-          
-          
+
+                    <!DOCTYPE html>
+          <html lang="es">
+          <head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Proyecto Final</title>
+              <link rel="stylesheet" href="style.css">
+          </head>
+          <body>
+              <header>
+                  <div class="head">
+                      <img src="img/gobCdmx.png" alt="Logo del Gobierno de la ciudad de México" width="150px">
+                  </div>
+                  <nav>
+                      <ul>
+                          <li>Residentes</li>
+                          <li>Negocios</li>
+                          <li>Visitantes</li>
+                          <li>Gobierno</li>
+                      </ul>
+                  </nav>
+              </header>
+              <main>
+                  <div class="back">
+                      <div class="sur">
+                          <p><img src="img/hero-vector.svg" alt="vector" width="30px"><b> APRENDE A PROGRAMAR</b> <br> EN LAS <b> ESCUELAS <br> DE CÓDIGO </b> <br> DE LA CDMX</p>
+                      </div>
+                  </div>
+                  <p class="dorado">¿Quién se puede inscribir?</p>
+                  <p class="center"><b>Cualquier persona que quiera aprender a programar código y cuente con 4-6 horas disponibles a la semana.</b><br>*Menores de edad deberán entrar a las instalaciones acompañados de un adulto.</p>
+              </main>
+          </body>
+          </html>
           
           
           INGRESA AQUI EL CSS
           
-          
+          *{
+              margin: 0px;
+              font-family: sans-serif;
+          }
+          .head{
+              border: 2px rgb(180, 180, 180);
+              border-style: solid;
+              margin-bottom: 5px;
+          }
+          ul{
+              list-style: none;
+              color: gray;
+              display: flex;
+              justify-content: flex-end;
+              margin-right: 130px;
+          }
+          li{
+              margin: 10px;
+              font-size: 18px;
+          }
+          li:hover{
+              text-decoration: underline;
+          }
+
+          .back{
+              background: url(img/background.jpg);
+              height: 50vh;
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+          }
+          .sur{
+              background: linear-gradient(to right,rgb(0, 0, 0),rgba(255, 255, 255, 0));
+              color: aliceblue;
+              background-position: center;
+              padding: 30px;
+              font-size: 50px;
+              width: 60%;
+              height: 87%;
+              display: flex;
+              text-align: right;
+              justify-content: end;
+              align-items: center;
+          }
+          .dorado{
+              color: darkgoldenrod;
+              font-weight: bold;
+              text-align: center;
+              margin-top: 20px;
+              font-size: 20px;
+          }
+          .center{
+              text-align: center;
+              color: gray;
+              font-size: 20px;
+          }
           
  Ingresa el link a tu página del proyecto final
